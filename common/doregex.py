@@ -17,6 +17,7 @@ class contex:
     loanid_pwd = conf.getstr('test_user', 'loanid_user')['pwd']
     title = conf.get('project','title')
     amount = conf.get('project','amount')
+    url = conf.get('url','url')
     # loanid = conf.get('project', 'loanid')
     sql = conf.get('sql','sql')
     # new_title = conf.get('project','new_title')

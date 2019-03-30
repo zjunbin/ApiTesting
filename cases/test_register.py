@@ -38,13 +38,13 @@ class TestRegister(unittest.TestCase):
             params['mobilephone'] =value
             #手机号码使用之后将手机号码+1写会配置文件
             conf.set('register', 'phone', str(value + 1))
-
-        resp = Request(method=item['method'], url=item['url'], data=params, cookies=COOKIES)
+        url = getattr(contex, 'url') + item['url']
+        resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)
         myloger1.mylog.info('请求数据是:'.format(item))
-        myloger1.mylog.debug('请求完成，服务器响应码是：{}'.format(resp.get_status_code()))
+        myloger1.mylog.debug('请求完成，服务器响应码是：{}'.format(resp.status_code()))
         # 设置COOKIES的值
-        if resp.get_cookies():
-            COOKIES = resp.get_cookies()
+        if resp.cookies():
+            COOKIES = resp.cookies()
         # 请求完成后获取响应报文 ，在判断响应报文是否和预期结果一致
         # sql = 'SELECT * FROM future.member WHERE MobilePhone = {}'.format(params['mobilephone'])
         # if mysql.fet_one(sql=sql):

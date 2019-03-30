@@ -62,11 +62,12 @@ class LidLoan(unittest.TestCase):
         mylog.info('获取到用户登录COOKIES：{}'.format(COOKIES))
         params = item['params']
         params = json.loads(DoRegex().replace(params))
+        url = getattr(contex,'url')+item['url']
         mylog.info('测试数据请求初始化{}'.format(params))
         if item['title'] == '投资金额大于标的余额':  # 执行投资金额大于标的余额的用例
             Balance = getattr(contex, '剩余可投金额') + Decimal(1000)
             params['amount'] = Balance
-            resp = Request(method=item['method'], url=item['url'], data=params, cookies=COOKIES)
+            resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)
             excepted = json.loads(item['excepted'])
             actual = resp.get_json()
             try:

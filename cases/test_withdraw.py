@@ -27,13 +27,14 @@ class Withdraw(unittest.TestCase):
     def test_withdraw(self, item):
         result = None
         params = DoRegex().replace(item['params'])  # 处理初始化数据
+        url = getattr(contex, 'url') + item['url']
         if hasattr(contex, 'COOKIES'):  # 处理COOKIES
             COOKIES = getattr(contex, 'COOKIES')
         else:
             COOKIES = None
-        resp = Request(method=item['method'], url=item['url'], data=params, cookies=COOKIES)  # 开始HTTP请求
-        if resp.get_cookies():
-            setattr(contex, 'COOKIES', resp.get_cookies())
+        resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)  # 开始HTTP请求
+        if resp.cookies():
+            setattr(contex, 'COOKIES', resp.cookies())
         withdraw_title = item['title'][0:4]
         if withdraw_title == '成功取现':
             sql = 'SELECT * FROM future.member WHERE MobilePhone = {} '.format(params['mobilephone'])

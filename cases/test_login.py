@@ -19,6 +19,7 @@ class Login(unittest.TestCase):
     @data(*data_list)
     @unpack
     def test_longin(self, caseid, method, params, excepted, url, title):
+        url = getattr(contex, 'url') + url
         mylog = MyLog()
         mylog.debug('判断有无初始化的cookies值')
         if hasattr(contex, 'cookies'):
@@ -32,9 +33,9 @@ class Login(unittest.TestCase):
         mylog.info('请求方式{}'.format(method))
         mylog.info('请求url{}'.format(url))
         mylog.info('请求数据{}'.format(params))
-        if resp.get_cookies():
-            setattr(contex, 'cookies', resp.get_cookies())
-            mylog.info('本次请求获取到的cookies是：{}'.format(resp.get_cookies()))
+        if resp.cookies():
+            setattr(contex, 'cookies', resp.cookies())
+            mylog.info('本次请求获取到的cookies是：{}'.format(resp.cookies()))
         actual = resp.get_txt()
         result = None
         try:

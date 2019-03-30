@@ -6,8 +6,8 @@
 import HTMLTestRunnerNew
 import unittest
 
-from api_testing.common import constants
-from api_testing.common import test_login,test_register,test_bidLoan,test_loadadd,test_recharge,test_withdraw
+from common import constants
+from cases import test_bidLoan,test_loadadd,test_withdraw,test_recharge,test_login,test_register
 
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()

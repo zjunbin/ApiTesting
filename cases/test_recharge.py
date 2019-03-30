@@ -35,10 +35,11 @@ class Recharge(unittest.TestCase):
         params = item['params']
         '''通过读取配置文件替换params中的用户名或密码，并序列化'''
         params = json.loads(DoRegex().replace(params))
-        resp = Request(method=item['method'], url=item['url'], data=params, cookies=COOKIES)
+        url = getattr(contex, 'url') + item['url']
+        resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)
         '''登陆成功后将获取到的值通过反射写入到配置类中'''
-        if resp.get_cookies():
-            setattr(contex, 'COOKIES', resp.get_cookies())
+        if resp.cookies():
+            setattr(contex, 'COOKIES', resp.cookies())
         result = None
         actual = resp.get_txt()
 
