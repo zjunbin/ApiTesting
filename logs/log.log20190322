@@ -1,0 +1,349 @@
+2019-03-22 11:34:51,281 [ERROR] mylog.py [line:34] mylog日志信息：File is not a zip file
+2019-03-22 11:35:14,584 [ERROR] mylog.py [line:34] mylog日志信息：File is not a zip file
+2019-03-22 11:35:26,721 [ERROR] mylog.py [line:34] mylog日志信息：File is not a zip file
+2019-03-22 14:31:08,697 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 14:31:08,780 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 14:31:08,796 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 14:31:08,851 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 14:31:08,860 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 14:31:08,915 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 14:31:09,150 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 14:31:09,160 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-03-22 14:31:09,802 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:09,812 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'title': '买矿泉水_10', 'loanRate': '18.0', 'memberId': '1126396', 'biddingDays': '5', 'loanDateType': '0', 'loanTerm': '12', 'repaymemtWay': '4', 'amount': '20000'}
+2019-03-22 14:31:10,546 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:10,562 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'status': '4', 'id': '18093'}
+2019-03-22 14:31:11,292 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:11,309 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221113'}
+2019-03-22 14:31:12,036 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:12,048 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1000', 'loanId': '18093'}
+2019-03-22 14:31:12,819 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:12,827 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:12,836 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:12,843 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '', 'memberId': '', 'amount': '', 'loanId': ''}
+2019-03-22 14:31:13,567 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:13,575 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:13,583 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:13,591 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '', 'amount': '1', 'loanId': '18093'}
+2019-03-22 14:31:14,354 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:14,372 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:14,385 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:14,393 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '', 'memberId': '1126397', 'amount': '1', 'loanId': '18093'}
+2019-03-22 14:31:15,170 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:15,183 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:15,190 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:15,196 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1', 'loanId': ''}
+2019-03-22 14:31:15,973 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:15,978 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:15,982 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:15,987 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '', 'loanId': '18093'}
+2019-03-22 14:31:16,736 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:16,746 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:16,753 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:16,760 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '1234556', 'memberId': '-1231', 'amount': '1000', 'loanId': '18093'}
+2019-03-22 14:31:17,549 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:17,558 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:17,564 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:17,570 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '1234556', 'memberId': '1.1', 'amount': '1000', 'loanId': '18093'}
+2019-03-22 14:31:18,371 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:18,378 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:18,386 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:18,393 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1000', 'loanId': '-11221'}
+2019-03-22 14:31:19,196 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:19,206 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:19,212 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:19,217 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1000', 'loanId': '1.1'}
+2019-03-22 14:31:20,028 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:20,033 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:20,037 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:20,042 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '12345532132131321332136', 'memberId': '1126397', 'amount': '1000', 'loanId': '18093'}
+2019-03-22 14:31:20,880 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:20,885 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:20,889 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:20,893 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '99999999', 'amount': '1000', 'loanId': '18093'}
+2019-03-22 14:31:21,708 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:21,718 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:21,725 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:21,731 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1000', 'loanId': '9699999'}
+2019-03-22 14:31:22,578 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:22,587 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:22,594 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:22,599 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': 'abdc', 'loanId': '18093'}
+2019-03-22 14:31:23,441 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:23,446 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:23,451 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:23,456 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1001', 'loanId': '18093'}
+2019-03-22 14:31:24,334 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:24,344 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:24,354 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:24,362 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '123', 'loanId': '18093'}
+2019-03-22 14:31:25,276 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13605012.00
+2019-03-22 14:31:25,293 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:25,300 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:25,306 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '123', 'loanId': '18093'}
+2019-03-22 14:31:26,219 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额13586012.00
+2019-03-22 14:31:26,223 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 14:31:26,227 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=5D94E32A985680399F1FE18EFA6E9B6F for 47.107.168.87/futureloan>]>
+2019-03-22 14:31:26,231 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'memberId': '1126397', 'amount': '1000', 'loanId': '18093'}
+2019-03-22 15:28:36,654 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 15:28:36,702 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 15:28:36,706 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 15:28:36,753 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 15:28:36,758 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 15:28:36,805 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 15:28:37,025 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 15:28:37,029 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-03-22 15:28:37,131 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-03-22 15:28:37,675 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:37,680 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanRate': '18.0', 'memberId': '1126396', 'title': '买矿泉水_100瓶', 'amount': '50000', 'loanDateType': '0', 'repaymemtWay': '4', 'biddingDays': '5', 'loanTerm': '12'}
+2019-03-22 15:28:37,785 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-03-22 15:28:38,291 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:38,692 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:38,696 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221113'}
+2019-03-22 15:28:38,792 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-03-22 15:28:39,310 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:39,720 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:39,725 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'memberId': '', 'amount': '', 'password': '', 'loanId': ''}
+2019-03-22 15:28:39,821 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-03-22 15:28:40,349 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:40,746 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:41,150 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:41,154 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'memberId': '1126397', 'amount': '1', 'password': '123456', 'loanId': ''}
+2019-03-22 15:28:41,254 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-03-22 15:28:41,783 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:42,181 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:42,582 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:42,982 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:42,987 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'memberId': '1126397', 'amount': '1000', 'password': '123456', 'loanId': '-11221'}
+2019-03-22 15:28:43,091 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-03-22 15:28:43,623 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:43,628 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'memberId': '1126397', 'amount': '1000', 'password': '123456', 'loanId': '1.1'}
+2019-03-22 15:28:43,731 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-03-22 15:28:44,298 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:44,701 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:45,106 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:45,110 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'memberId': '1126397', 'amount': '1000', 'password': '123456', 'loanId': '9699999'}
+2019-03-22 15:28:45,212 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-03-22 15:28:45,757 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:46,158 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:46,568 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:46,964 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:28:47,366 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=595876349A536DC5B2D192A1D374B6A1 for 47.107.168.87/futureloan>]>
+2019-03-22 15:30:56,383 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 15:30:56,437 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 15:30:56,447 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 15:30:56,497 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 15:30:56,502 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 15:30:56,550 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 15:30:56,788 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 15:30:56,798 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-03-22 15:30:56,911 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-03-22 15:30:57,328 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:30:57,340 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'title': '买矿泉水_1瓶', 'loanRate': '18.0', 'amount': '50000', 'loanTerm': '12', 'biddingDays': '5', 'loanDateType': '0', 'repaymemtWay': '4', 'memberId': '1126396'}
+2019-03-22 15:30:57,458 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-03-22 15:30:57,864 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:30:58,280 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:30:58,294 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221113'}
+2019-03-22 15:30:58,403 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-03-22 15:30:58,816 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:30:59,232 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:30:59,243 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '', 'loanId': '', 'amount': '', 'memberId': ''}
+2019-03-22 15:30:59,356 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-03-22 15:30:59,770 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:00,186 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:00,604 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:00,618 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'loanId': '', 'amount': '1', 'memberId': '1126397'}
+2019-03-22 15:31:00,718 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-03-22 15:31:01,124 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:01,540 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:01,949 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:02,347 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:02,351 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'loanId': '-11221', 'amount': '1000', 'memberId': '1126397'}
+2019-03-22 15:31:02,462 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-03-22 15:31:02,871 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:02,875 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'loanId': '1.1', 'amount': '1000', 'memberId': '1126397'}
+2019-03-22 15:31:02,979 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-03-22 15:31:03,502 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:03,910 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:04,318 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:04,326 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'password': '123456', 'loanId': '9699999', 'amount': '1000', 'memberId': '1126397'}
+2019-03-22 15:31:04,439 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-03-22 15:31:05,004 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:05,403 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:05,816 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:06,228 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:06,635 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=F52AAFEA1E793F7C3919129CC6767775 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:12,446 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 15:31:12,501 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 15:31:12,511 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 15:31:12,571 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 15:31:12,581 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 15:31:12,633 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 15:31:12,861 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 15:31:12,871 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221111', 'pwd': '123456'}
+2019-03-22 15:31:12,982 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-03-22 15:31:13,540 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:13,552 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'biddingDays': '5', 'title': '买矿泉水_1瓶', 'loanDateType': '0', 'loanRate': '18.0', 'memberId': '1126396', 'loanTerm': '12', 'amount': '50000', 'repaymemtWay': '4'}
+2019-03-22 15:31:13,675 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-03-22 15:31:14,201 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:14,610 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:14,620 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221113', 'pwd': '123456'}
+2019-03-22 15:31:14,728 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-03-22 15:31:15,270 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:15,676 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:15,682 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '', 'memberId': '', 'password': '', 'loanId': ''}
+2019-03-22 15:31:15,784 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-03-22 15:31:16,318 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:16,719 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:17,132 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:17,149 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'memberId': '1126397', 'password': '123456', 'loanId': ''}
+2019-03-22 15:31:17,257 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-03-22 15:31:17,810 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:18,226 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:18,634 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:19,050 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:19,066 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'memberId': '1126397', 'password': '123456', 'loanId': '-11221'}
+2019-03-22 15:31:19,184 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-03-22 15:31:19,753 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:19,765 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'memberId': '1126397', 'password': '123456', 'loanId': '1.1'}
+2019-03-22 15:31:19,878 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-03-22 15:31:20,465 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:20,884 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:21,312 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:21,329 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'memberId': '1126397', 'password': '123456', 'loanId': '9699999'}
+2019-03-22 15:31:21,489 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-03-22 15:31:22,057 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:22,475 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:22,897 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:23,314 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:31:23,724 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FF7F1A815DB3FD9E69B7F2238568AF47 for 47.107.168.87/futureloan>]>
+2019-03-22 15:32:01,025 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 15:32:01,077 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 15:32:01,085 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 15:32:01,138 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 15:32:01,146 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 15:32:01,196 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 15:32:01,430 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 15:32:01,437 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221111', 'pwd': '123456'}
+2019-03-22 15:32:01,542 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-03-22 15:32:02,074 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=FFF7674C9B0B1B27C7C7C5D024241260 for 47.107.168.87/futureloan>]>
+2019-03-22 15:32:02,083 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'title': '买矿泉水_01瓶', 'amount': '50000', 'loanTerm': '12', 'memberId': '1126396', 'biddingDays': '5', 'loanDateType': '0', 'repaymemtWay': '4', 'loanRate': '18.0'}
+2019-03-22 15:32:02,204 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-03-22 15:35:19,228 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 15:35:19,292 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 15:35:19,308 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 15:35:19,367 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 15:35:19,377 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 15:35:19,429 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 15:35:19,672 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 15:35:19,684 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-03-22 15:35:19,804 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-03-22 15:35:20,352 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=9BE3DC0C6F1BCDDA14DDC703D57FEFA6 for 47.107.168.87/futureloan>]>
+2019-03-22 15:35:20,363 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'title': '买矿泉水_02瓶', 'repaymemtWay': '4', 'loanDateType': '0', 'biddingDays': '5', 'loanTerm': '12', 'loanRate': '18.0', 'amount': '50000', 'memberId': '1126396'}
+2019-03-22 15:35:20,473 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-03-22 15:36:19,901 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-03-22 15:36:19,957 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-03-22 15:36:19,965 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-03-22 15:36:20,020 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-03-22 15:36:20,029 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-03-22 15:36:20,089 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-03-22 15:36:20,326 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-03-22 15:36:20,336 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221111', 'pwd': '123456'}
+2019-03-22 15:36:20,442 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-03-22 15:36:20,974 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:20,984 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanDateType': '0', 'title': '买矿泉水_03瓶', 'loanTerm': '12', 'amount': '50000', 'memberId': '1126396', 'loanRate': '18.0', 'repaymemtWay': '4', 'biddingDays': '5'}
+2019-03-22 15:36:21,099 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-03-22 15:36:21,692 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:21,696 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'id': '18126', 'status': '4'}
+2019-03-22 15:36:21,801 [INFO] mylog.py [line:30] mylog日志信息：管理员审核用例执行结果：Pass
+2019-03-22 15:36:22,400 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:22,415 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221113', 'pwd': '123456'}
+2019-03-22 15:36:22,523 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-03-22 15:36:23,122 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:23,130 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '1000', 'password': '123456'}
+2019-03-22 15:36:23,266 [INFO] mylog.py [line:30] mylog日志信息：竞标成功用例执行结果：Pass
+2019-03-22 15:36:23,875 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:23,880 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:23,885 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:23,890 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '', 'memberId': '', 'amount': '', 'password': ''}
+2019-03-22 15:36:23,991 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-03-22 15:36:24,601 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:24,617 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:24,636 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:24,644 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '', 'amount': '1', 'password': '123456'}
+2019-03-22 15:36:24,743 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id为空用例执行结果：Pass
+2019-03-22 15:36:25,354 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:25,371 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:25,385 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:25,391 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '1', 'password': ''}
+2019-03-22 15:36:25,489 [INFO] mylog.py [line:30] mylog日志信息：password为空用例执行结果：Pass
+2019-03-22 15:36:26,160 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:26,166 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:26,170 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:26,175 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '', 'memberId': '1126397', 'amount': '1', 'password': '123456'}
+2019-03-22 15:36:26,269 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-03-22 15:36:26,892 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:26,909 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:26,918 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:26,927 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '', 'password': '123456'}
+2019-03-22 15:36:27,031 [INFO] mylog.py [line:30] mylog日志信息：amount为空用例执行结果：Pass
+2019-03-22 15:36:27,680 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:27,692 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:27,696 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:27,701 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '-1231', 'amount': '1000', 'password': '1234556'}
+2019-03-22 15:36:27,796 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id小于0用例执行结果：Pass
+2019-03-22 15:36:28,428 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:28,434 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:28,440 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:28,447 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1.1', 'amount': '1000', 'password': '1234556'}
+2019-03-22 15:36:28,554 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id是小数用例执行结果：Pass
+2019-03-22 15:36:29,210 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:29,218 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:29,223 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:29,228 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '-11221', 'memberId': '1126397', 'amount': '1000', 'password': '123456'}
+2019-03-22 15:36:29,332 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-03-22 15:36:29,981 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:29,987 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:29,992 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:29,998 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '1.1', 'memberId': '1126397', 'amount': '1000', 'password': '123456'}
+2019-03-22 15:36:30,100 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-03-22 15:36:30,769 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:30,773 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:30,777 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:30,781 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '1000', 'password': '12345532132131321332136'}
+2019-03-22 15:36:30,885 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18用例执行结果：Pass
+2019-03-22 15:36:31,566 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:31,571 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:31,576 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:31,580 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '99999999', 'amount': '1000', 'password': '123456'}
+2019-03-22 15:36:31,681 [INFO] mylog.py [line:30] mylog日志信息：用户不存在用例执行结果：Pass
+2019-03-22 15:36:32,360 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:32,368 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:32,376 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:32,384 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '9699999', 'memberId': '1126397', 'amount': '1000', 'password': '123456'}
+2019-03-22 15:36:32,495 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-03-22 15:36:33,195 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:33,199 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:33,204 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:33,209 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': 'abdc', 'password': '123456'}
+2019-03-22 15:36:33,304 [INFO] mylog.py [line:30] mylog日志信息：投资金额非数字用例执行结果：Pass
+2019-03-22 15:36:34,018 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:34,027 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:34,036 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:34,045 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '1001', 'password': '123456'}
+2019-03-22 15:36:34,151 [INFO] mylog.py [line:30] mylog日志信息：不能被100整除的数用例执行结果：Pass
+2019-03-22 15:36:34,885 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:34,891 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:34,895 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:34,900 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '123', 'password': '123456'}
+2019-03-22 15:36:35,014 [INFO] mylog.py [line:30] mylog日志信息：投资金额大于标的余额用例执行结果：Pass
+2019-03-22 15:36:35,764 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14585013.00
+2019-03-22 15:36:35,777 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:35,789 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:35,798 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '123', 'password': '123456'}
+2019-03-22 15:36:35,933 [INFO] mylog.py [line:30] mylog日志信息：将标投满用例执行结果：Pass
+2019-03-22 15:36:36,665 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额14536013.00
+2019-03-22 15:36:36,678 [INFO] mylog.py [line:30] mylog日志信息：剩余可投金额
+2019-03-22 15:36:36,689 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=2C7D3E578BBF16C8D1547544E74D06FA for 47.107.168.87/futureloan>]>
+2019-03-22 15:36:36,697 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '18126', 'memberId': '1126397', 'amount': '1000', 'password': '123456'}
+2019-03-22 15:36:36,815 [INFO] mylog.py [line:30] mylog日志信息：投标已满在投标用例执行结果：Pass
