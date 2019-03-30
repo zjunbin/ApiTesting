@@ -3,10 +3,10 @@
 # @Author    :zjunbin
 # @Email     :648060307@qq.com
 # @File      :test_withdraw.py
-from api_testing.common.request import Request
-from api_testing.common.read_excel import ReadExcel
-from api_testing.common.mysql import MySql
-from api_testing.common.doregex import *
+from common.request import Request
+from common.read_excel import ReadExcel
+from common.mysql import MySql
+from common.doregex import *
 from decimal import Decimal
 from ddt import ddt, data
 import unittest

@@ -3,12 +3,12 @@
 # @Author    :zjunbin
 # @Email     :648060307@qq.com
 # @File      :test_bidLoan.py
-from api_testing.common.read_excel import ReadExcel
-from api_testing.common.request import Request
-from api_testing.common.doregex import *
-from api_testing.common.mysql import MySql
-from api_testing.common.readconfig import ReadConfig
-from api_testing.common.mylog import MyLog
+from common.read_excel import ReadExcel
+from common.request import Request
+from common.doregex import *
+from common.mysql import MySql
+from common.readconfig import ReadConfig
+from common.mylog import MyLog
 from decimal import Decimal
 import json
 from ddt import ddt, data

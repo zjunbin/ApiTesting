@@ -4,7 +4,7 @@
 # @Email     :648060307@qq.com
 # @File      :readconfig.py
 import configparser
-from api_testing.common import constants
+from common import constants
 import os
 
 

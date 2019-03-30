@@ -1,48 +1,50 @@
 #  coding utf-8
-# @time      :2019/3/1513:35
+# @time      :2019/3/1811:53
 # @Author    :zjunbin
 # @Email     :648060307@qq.com
 # @File      :test_login.py
+from common.read_excel import ReadExcel
+from common.mylog import MyLog
+from common.request import Request
+from common.doregex import *
+from ddt import ddt, data, unpack
 import unittest
-from api_testing.common.read_excel import ReadExcel
-from api_testing.common.request import Request
-from ddt import ddt,data,unpack
 import json
-from api_testing.common.mylog import MyLog
 
-mylog = MyLog()
+data_list = ReadExcel().read_excel('login')
 
-#导入测试用例
-readexcel = ReadExcel()
-data_list = readexcel.read_excel('login')
-COOKIES = None
+
 @ddt
 class Login(unittest.TestCase):
-    def setUp(self):
-        print('开始执行用例')
-
     @data(*data_list)
-    def test_login(self,item):
-        global COOKIES
-        params = json.loads(item['params'])
-        mylog.debug('开始http请求')
-        resp = Request(method=item['method'],url=item['url'],data=params,cookies=COOKIES)
-        mylog.info('请求的数据是：{}'.format(item))
-        mylog.debug('请求完成，服务器响应码是：{}'.format(resp.get_status_code()))
+    @unpack
+    def test_longin(self, caseid, method, params, excepted, url, title):
+        mylog = MyLog()
+        mylog.debug('判断有无初始化的cookies值')
+        if hasattr(contex, 'cookies'):
+            cookies = getattr(contex, 'cookies')
+        else:
+            cookies = None
+        mylog.debug('获取到的cookies值是：{}'.format(cookies))
+        params = json.loads(params)
+        resp = Request(method=method, url=url, data=params, cookies=cookies)
+        mylog.info('执行{}的用例'.format(title))
+        mylog.info('请求方式{}'.format(method))
+        mylog.info('请求url{}'.format(url))
+        mylog.info('请求数据{}'.format(params))
         if resp.get_cookies():
-            COOKIES= resp.get_cookies()
+            setattr(contex, 'cookies', resp.get_cookies())
+            mylog.info('本次请求获取到的cookies是：{}'.format(resp.get_cookies()))
         actual = resp.get_txt()
+        result = None
         try:
-            self.assertEqual(actual,item['excepted'])
+            self.assertEqual(actual, excepted)
             result = 'PASS'
-            mylog.info('{}:用例执行通过'.format(item['title']))
+            mylog.info('执行{}的用例：{}'.format(title, result))
         except Exception as e:
-            result = 'FAIL'
-            mylog.info('{}:用例执行未通过'.format(item['title']))
+            result = 'FAILED'
+            mylog.error('执行{}的用例,错误信息是：{}'.format(title, e))
             raise e
         finally:
-            readexcel.write_result('login',item['caseid'],actual,result)
-            mylog.info('{}:测试结果写入完成'.format(item['title']))
-
-    def tearDown(self):
-        print('用例执行完成')
+            ReadExcel().write_result('login', caseid=caseid, actual=actual, result=result)
+            mylog.info('写入测试结果完成')

@@ -4,7 +4,7 @@
 # @Email     :648060307@qq.com
 # @File      :doregex.py
 import re
-from api_testing.common.readconfig import ReadConfig
+from common.readconfig import ReadConfig
 
 conf = ReadConfig()
 

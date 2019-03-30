@@ -4,7 +4,8 @@
 # @Email     :648060307@qq.com
 # @File      :mysql.py
 import pymysql
-from api_testing.common.doregex import *
+from common.doregex import *
+from common.readconfig import ReadConfig
 
 conf = ReadConfig()
 

@@ -4,8 +4,8 @@
 # @Email     :648060307@qq.com
 # @File      :read_excel.py
 import openpyxl
-from api_testing.common.mylog import MyLog
-from api_testing.common import constants
+from common.mylog import MyLog
+from common import constants
 data_file = constants.data_case
 mylog = MyLog()
 

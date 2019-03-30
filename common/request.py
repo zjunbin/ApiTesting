@@ -4,7 +4,7 @@
 # @Email     :648060307@qq.com
 # @File      :request.py
 import requests
-from api_testing.common.mylog import MyLog
+from common.mylog import MyLog
 
 mylog = MyLog()
 class Request:

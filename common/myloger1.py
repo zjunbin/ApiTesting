@@ -4,8 +4,8 @@
 # @Email     :648060307@qq.com
 # @File      :myloger1.py
 import logging
-from api_testing.common.readconfig import ReadConfig
-from api_testing.common import constants
+from common.readconfig import ReadConfig
+from common import constants
 import time
 
 mylog = logging.Logger('mylog')
