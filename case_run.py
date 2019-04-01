@@ -19,6 +19,9 @@ suite.addTest(loader.loadTestsFromModule(test_withdraw))
 suite.addTest(loader.loadTestsFromModule(test_loadadd))
 suite.addTest(loader.loadTestsFromModule(test_bidLoan))
 with open(constants.result_path, 'wb+') as file:
-    run = HTMLTestRunnerNew.HTMLTestRunner(file)
+    run = HTMLTestRunnerNew.HTMLTestRunner(stream=file,
+                                           verbosity=2,
+                                           title='testing',
+                                           tester='admin')
     run.run(suite)
 

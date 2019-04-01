@@ -1,6 +1,0 @@
-2019-03-19 11:39:34,798 [ERROR] test_recharge.py [line:60] mylog日志信息：'{"st[139 chars]nt":"7.00","type":"1","regtime":"2019-03-19 10[20 chars]成功"}' != '{"st[139 chars]nt":"5.00","type":"1","regtime":"2019-03-19 10[20 chars]成功"}'
-Diff is 737 characters long. Set self.maxDiff to None to see it.
-2019-03-19 11:47:52,777 [ERROR] test_recharge.py [line:64] mylog日志信息：'{"st[139 chars]nt":"9.00","type":"1","regtime":"2019-03-19 10[20 chars]成功"}' != '{"st[139 chars]nt":"5.00","type":"1","regtime":"2019-03-19 10[20 chars]成功"}'
-Diff is 737 characters long. Set self.maxDiff to None to see it.
-2019-03-19 11:51:17,359 [ERROR] test_recharge.py [line:65] mylog日志信息：'{"st[139 chars]nt":"10.00","type":"1","regtime":"2019-03-19 1[21 chars]成功"}' != '{"st[139 chars]nt":"5.00","type":"1","regtime":"2019-03-19 10[20 chars]成功"}'
-Diff is 739 characters long. Set self.maxDiff to None to see it.

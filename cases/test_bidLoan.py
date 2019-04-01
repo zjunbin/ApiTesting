@@ -84,9 +84,9 @@ class LidLoan(unittest.TestCase):
         elif item['title'] == '将标投满':  # 执行将表注满的用例
             Balance = getattr(contex, '剩余可投金额')
             params['amount'] = Balance
-            resp = Request(method=item['method'], url=item['url'], data=params, cookies=COOKIES)
-            if resp.get_cookies():
-                setattr(contex, 'COOKIES', resp.get_cookies())
+            resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)
+            if resp.cookies():
+                setattr(contex, 'COOKIES', resp.cookies())
             try:
                 self.assertEqual(resp.get_txt(), item['excepted'])
                 result = 'Pass'
@@ -99,9 +99,9 @@ class LidLoan(unittest.TestCase):
             finally:
                 read.write_result('bidLoan', item['caseid'], resp.get_txt(), result)
         else:  # 执行其他用例
-            resp = Request(method=item['method'], url=item['url'], data=params, cookies=COOKIES)
-            if resp.get_cookies():
-                setattr(contex, 'COOKIES', resp.get_cookies())
+            resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)
+            if resp.cookies():
+                setattr(contex, 'COOKIES', resp.cookies())
             try:
                 self.assertEqual(resp.get_txt(), item['excepted'])
                 result = 'Pass'
@@ -116,3 +116,5 @@ class LidLoan(unittest.TestCase):
 
     def tearDown(self):
         MySql().mysql_close()
+
+

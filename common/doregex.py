@@ -15,6 +15,8 @@ class contex:
     admin_pwd = conf.getstr('test_user', 'admin_user')['pwd']
     loanid_user = conf.getstr('test_user', 'loanid_user')['user']
     loanid_pwd = conf.getstr('test_user', 'loanid_user')['pwd']
+    withdraw_user = conf.getstr('test_user', 'withdraw_user')['user']
+    withdraw_pwd = conf.getstr('test_user', 'withdraw_user')['pwd']
     title = conf.get('project','title')
     amount = conf.get('project','amount')
     url = conf.get('url','url')

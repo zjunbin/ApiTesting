@@ -1,0 +1,1159 @@
+2019-04-01 20:00:33,205 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-04-01 20:00:33,284 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-04-01 20:00:33,301 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-04-01 20:00:33,384 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-04-01 20:00:33,400 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-04-01 20:00:33,491 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-04-01 20:00:33,504 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221114"
+2019-04-01 20:00:33,578 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221114，的id是1127282
+2019-04-01 20:00:33,947 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77973956.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 20:00:33,968 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-04-01 20:00:33,979 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221111', 'pwd': '123456'}
+2019-04-01 20:00:34,090 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-04-01 20:00:34,662 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77973956.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 20:00:34,673 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:34,682 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanDateType': '0', 'amount': '50000', 'title': '买矿泉水_03瓶', 'loanTerm': '12', 'repaymemtWay': '4', 'biddingDays': '5', 'memberId': '1126396', 'loanRate': '18.0'}
+2019-04-01 20:00:34,812 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-04-01 20:00:35,442 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:35,447 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'status': '4', 'id': '19604'}
+2019-04-01 20:00:35,573 [INFO] mylog.py [line:30] mylog日志信息：管理员审核用例执行结果：Pass
+2019-04-01 20:00:36,521 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:36,530 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221113', 'pwd': '123456'}
+2019-04-01 20:00:36,836 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-04-01 20:00:38,677 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:38,693 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:39,263 [INFO] mylog.py [line:30] mylog日志信息：竞标成功用例执行结果：Pass
+2019-04-01 20:00:40,050 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:40,055 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:40,060 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '', 'loanId': '', 'password': '', 'memberId': ''}
+2019-04-01 20:00:40,180 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-04-01 20:00:40,718 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:40,726 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:40,737 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'loanId': '19604', 'password': '123456', 'memberId': ''}
+2019-04-01 20:00:40,869 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id为空用例执行结果：Pass
+2019-04-01 20:00:41,544 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:41,553 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:41,566 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'loanId': '19604', 'password': '', 'memberId': '1126397'}
+2019-04-01 20:00:41,694 [INFO] mylog.py [line:30] mylog日志信息：password为空用例执行结果：Pass
+2019-04-01 20:00:42,295 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:42,308 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:42,321 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'loanId': '', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:42,443 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-04-01 20:00:42,984 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:42,991 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:42,997 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:43,101 [INFO] mylog.py [line:30] mylog日志信息：amount为空用例执行结果：Pass
+2019-04-01 20:00:43,743 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:43,758 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:43,769 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19604', 'password': '1234556', 'memberId': '-1231'}
+2019-04-01 20:00:43,869 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id小于0用例执行结果：Pass
+2019-04-01 20:00:44,450 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:44,458 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:44,465 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19604', 'password': '1234556', 'memberId': '1.1'}
+2019-04-01 20:00:44,565 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id是小数用例执行结果：Pass
+2019-04-01 20:00:45,139 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:45,144 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:45,149 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '-11221', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:45,272 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-04-01 20:00:45,926 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:45,932 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:45,937 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '1.1', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:46,057 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-04-01 20:00:46,659 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:46,665 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:46,669 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19604', 'password': '12345532132131321332136', 'memberId': '1126397'}
+2019-04-01 20:00:46,766 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18用例执行结果：Pass
+2019-04-01 20:00:47,398 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:47,407 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:47,414 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19604', 'password': '123456', 'memberId': '99999999'}
+2019-04-01 20:00:47,531 [INFO] mylog.py [line:30] mylog日志信息：用户不存在用例执行结果：Pass
+2019-04-01 20:00:48,135 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:48,145 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:48,150 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '9699999', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:48,251 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-04-01 20:00:48,855 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:48,864 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:48,868 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': 'abdc', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:48,967 [INFO] mylog.py [line:30] mylog日志信息：投资金额非数字用例执行结果：Pass
+2019-04-01 20:00:49,597 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:49,603 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:49,611 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1001', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:49,733 [INFO] mylog.py [line:30] mylog日志信息：不能被100整除的数用例执行结果：Pass
+2019-04-01 20:00:50,375 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:50,383 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:50,394 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '123', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:50,528 [INFO] mylog.py [line:30] mylog日志信息：投资金额大于标的余额用例执行结果：Pass
+2019-04-01 20:00:51,142 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77972956.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:00:51,148 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:51,154 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '123', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:51,319 [INFO] mylog.py [line:30] mylog日志信息：将标投满用例执行结果：Pass
+2019-04-01 20:00:51,918 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:77923956.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 20:00:51,924 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=8690AA286C4885069D249FDD868044A9 for 47.107.168.87/futureloan>]>
+2019-04-01 20:00:51,930 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19604', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 20:00:52,054 [INFO] mylog.py [line:30] mylog日志信息：投标已满在投标用例执行结果：Pass
+2019-04-01 20:03:36,246 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:36,253 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：None
+2019-04-01 20:03:36,365 [INFO] mylog.py [line:30] mylog日志信息：执行登录管理员的用例
+2019-04-01 20:03:36,375 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-04-01 20:03:36,385 [INFO] mylog.py [line:30] mylog日志信息：本次请求获取到的cookies是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:36,391 [INFO] mylog.py [line:30] mylog日志信息：执行登录管理员的用例：PASS
+2019-04-01 20:03:36,570 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:36,576 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:36,581 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:36,590 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:36,595 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:36,602 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:36,608 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:36,729 [INFO] mylog.py [line:30] mylog日志信息：执行登录竞标用户的用例
+2019-04-01 20:03:36,742 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221113'}
+2019-04-01 20:03:36,748 [INFO] mylog.py [line:30] mylog日志信息：执行登录竞标用户的用例：PASS
+2019-04-01 20:03:36,915 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:36,921 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:36,926 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:36,932 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:36,938 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,045 [INFO] mylog.py [line:30] mylog日志信息：执行所有参数为空的用例
+2019-04-01 20:03:37,061 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'loanId': '', 'password': '', 'amount': '', 'memberId': ''}
+2019-04-01 20:03:37,075 [INFO] mylog.py [line:30] mylog日志信息：执行所有参数为空的用例：PASS
+2019-04-01 20:03:37,181 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:37,187 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,193 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,200 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,205 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,211 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,217 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,223 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,228 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,235 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,240 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,247 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,252 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,259 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,264 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,271 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,279 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,285 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,290 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,297 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,303 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,308 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,314 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,320 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,325 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,332 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,338 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,344 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,350 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,359 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,366 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,371 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,376 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,384 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,402 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,690 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例
+2019-04-01 20:03:37,697 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-04-01 20:03:37,702 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例：PASS
+2019-04-01 20:03:37,907 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:37,912 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,918 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,924 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,929 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,936 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,942 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,948 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,954 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,960 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,965 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,971 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,977 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,982 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,987 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:37,993 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:37,999 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,005 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,011 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,018 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,024 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,030 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,035 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,042 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,047 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,344 [INFO] mylog.py [line:30] mylog日志信息：执行用户id为空的用例
+2019-04-01 20:03:38,360 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'title': 'new_title', 'loanRate': '18.0', 'repaymemtWay': '4', 'loanDateType': '0', 'memberId': '', 'loanTerm': '12', 'biddingDays': '5', 'amount': '1000'}
+2019-04-01 20:03:38,367 [INFO] mylog.py [line:30] mylog日志信息：执行用户id为空的用例：PASS
+2019-04-01 20:03:38,452 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:38,459 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,465 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,472 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,477 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,484 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,495 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,503 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,510 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,519 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,525 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,531 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,537 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,543 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,549 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:38,827 [INFO] mylog.py [line:30] mylog日志信息：执行用户id不是整数的用例
+2019-04-01 20:03:38,840 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'title': 'new_title', 'loanRate': '18.0', 'repaymemtWay': '4', 'loanDateType': '0', 'memberId': '0.1', 'loanTerm': '12', 'biddingDays': '5', 'amount': '1000'}
+2019-04-01 20:03:38,849 [INFO] mylog.py [line:30] mylog日志信息：执行用户id不是整数的用例：PASS
+2019-04-01 20:03:38,956 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:38,963 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:38,968 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,099 [INFO] mylog.py [line:30] mylog日志信息：执行用户id不是会员的用例
+2019-04-01 20:03:39,114 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'title': 'new_title', 'loanRate': '18.0', 'repaymemtWay': '4', 'loanDateType': '0', 'memberId': '13266666699', 'loanTerm': '12', 'biddingDays': '5', 'amount': '1000'}
+2019-04-01 20:03:39,120 [INFO] mylog.py [line:30] mylog日志信息：执行用户id不是会员的用例：PASS
+2019-04-01 20:03:39,207 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:39,213 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,219 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,225 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,231 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,237 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,243 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,248 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,253 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,262 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,272 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,281 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,290 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,297 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,304 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,312 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,317 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,324 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,329 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,336 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,341 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,469 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例
+2019-04-01 20:03:39,478 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221114'}
+2019-04-01 20:03:39,487 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例：PASS
+2019-04-01 20:03:39,689 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:39,695 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:39,700 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:39,828 [INFO] mylog.py [line:30] mylog日志信息：执行充值1的用例
+2019-04-01 20:03:39,842 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '1'}
+2019-04-01 20:03:39,859 [ERROR] mylog.py [line:34] mylog日志信息：执行充值1的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"65.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:03:40,039 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:40,046 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:40,052 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:40,200 [INFO] mylog.py [line:30] mylog日志信息：执行成功取现的用例
+2019-04-01 20:03:40,210 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '1'}
+2019-04-01 20:03:40,222 [ERROR] mylog.py [line:34] mylog日志信息：执行成功取现的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"64.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:03:40,418 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:40,427 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:40,432 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:40,588 [INFO] mylog.py [line:30] mylog日志信息：执行充值1的用例
+2019-04-01 20:03:40,607 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '1'}
+2019-04-01 20:03:40,618 [ERROR] mylog.py [line:34] mylog日志信息：执行充值1的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"65.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:03:40,831 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:40,839 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:40,845 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:41,162 [INFO] mylog.py [line:30] mylog日志信息：执行成功取现0.01的用例
+2019-04-01 20:03:41,182 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '0.01'}
+2019-04-01 20:03:41,195 [ERROR] mylog.py [line:34] mylog日志信息：执行成功取现0.01的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"64.99","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:03:41,374 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:41,380 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:41,387 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:41,519 [INFO] mylog.py [line:30] mylog日志信息：执行充值50万的用例
+2019-04-01 20:03:41,530 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '500000'}
+2019-04-01 20:03:41,540 [ERROR] mylog.py [line:34] mylog日志信息：执行充值50万的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[181 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"500064.99","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:03:41,643 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:41,651 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:41,658 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:42,296 [INFO] mylog.py [line:30] mylog日志信息：执行成功取现499999.99的用例
+2019-04-01 20:03:42,301 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '499999.99'}
+2019-04-01 20:03:42,307 [ERROR] mylog.py [line:34] mylog日志信息：执行成功取现499999.99的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"65.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:03:42,400 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:42,411 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:42,420 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:42,556 [INFO] mylog.py [line:30] mylog日志信息：执行充值50万的用例
+2019-04-01 20:03:42,565 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '500000'}
+2019-04-01 20:03:42,573 [ERROR] mylog.py [line:34] mylog日志信息：执行充值50万的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[181 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"500065.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:03:42,714 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:42,720 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:42,726 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:43,243 [INFO] mylog.py [line:30] mylog日志信息：执行成功取现50万的用例
+2019-04-01 20:03:43,255 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '500000'}
+2019-04-01 20:03:43,260 [ERROR] mylog.py [line:34] mylog日志信息：执行成功取现50万的用例,错误信息是：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"65.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:03:43,349 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:43,356 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:43,362 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:43,512 [INFO] mylog.py [line:30] mylog日志信息：执行取现金额大于余额的用例
+2019-04-01 20:03:43,527 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '500000'}
+2019-04-01 20:03:43,532 [INFO] mylog.py [line:30] mylog日志信息：执行取现金额大于余额的用例：PASS
+2019-04-01 20:03:43,620 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:43,625 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:43,631 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:43,771 [INFO] mylog.py [line:30] mylog日志信息：执行手机号非会员的用例
+2019-04-01 20:03:43,787 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '15811221111', 'amount': '2'}
+2019-04-01 20:03:43,798 [INFO] mylog.py [line:30] mylog日志信息：执行手机号非会员的用例：PASS
+2019-04-01 20:03:43,931 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:43,940 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:43,948 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:44,197 [INFO] mylog.py [line:30] mylog日志信息：执行手机号为空的用例
+2019-04-01 20:03:44,207 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '', 'amount': '3'}
+2019-04-01 20:03:44,215 [INFO] mylog.py [line:30] mylog日志信息：执行手机号为空的用例：PASS
+2019-04-01 20:03:44,311 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:44,317 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:44,323 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:44,425 [INFO] mylog.py [line:30] mylog日志信息：执行手机号12位的用例
+2019-04-01 20:03:44,430 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '186887734681', 'amount': '1'}
+2019-04-01 20:03:44,434 [INFO] mylog.py [line:30] mylog日志信息：执行手机号12位的用例：PASS
+2019-04-01 20:03:44,526 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:44,532 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:44,538 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:44,662 [INFO] mylog.py [line:30] mylog日志信息：执行手机号10位的用例
+2019-04-01 20:03:44,673 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '1868877346', 'amount': '1'}
+2019-04-01 20:03:44,683 [INFO] mylog.py [line:30] mylog日志信息：执行手机号10位的用例：PASS
+2019-04-01 20:03:44,775 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:44,782 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:44,788 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:44,928 [INFO] mylog.py [line:30] mylog日志信息：执行金额为空的用例
+2019-04-01 20:03:44,944 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': ''}
+2019-04-01 20:03:44,956 [INFO] mylog.py [line:30] mylog日志信息：执行金额为空的用例：PASS
+2019-04-01 20:03:45,055 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:45,061 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:45,067 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:45,184 [INFO] mylog.py [line:30] mylog日志信息：执行金额小数大于3位数的用例
+2019-04-01 20:03:45,195 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '0.001'}
+2019-04-01 20:03:45,205 [INFO] mylog.py [line:30] mylog日志信息：执行金额小数大于3位数的用例：PASS
+2019-04-01 20:03:45,297 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:45,303 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:45,309 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:45,439 [INFO] mylog.py [line:30] mylog日志信息：执行金额大于50万的用例
+2019-04-01 20:03:45,457 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '500000.1'}
+2019-04-01 20:03:45,473 [INFO] mylog.py [line:30] mylog日志信息：执行金额大于50万的用例：PASS
+2019-04-01 20:03:45,570 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:45,578 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:45,584 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:45,724 [INFO] mylog.py [line:30] mylog日志信息：执行金额为负数的用例
+2019-04-01 20:03:45,748 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': '-1'}
+2019-04-01 20:03:45,761 [INFO] mylog.py [line:30] mylog日志信息：执行金额为负数的用例：PASS
+2019-04-01 20:03:45,869 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:45,877 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:45,883 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:46,001 [INFO] mylog.py [line:30] mylog日志信息：执行金额非数字的用例
+2019-04-01 20:03:46,013 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221114', 'amount': 'abcd'}
+2019-04-01 20:03:46,019 [INFO] mylog.py [line:30] mylog日志信息：执行金额非数字的用例：PASS
+2019-04-01 20:03:46,137 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:46,143 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:46,148 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:46,278 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例
+2019-04-01 20:03:46,292 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221113'}
+2019-04-01 20:03:46,308 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例：PASS
+2019-04-01 20:03:46,481 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:46,487 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:46,492 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:46,627 [INFO] mylog.py [line:30] mylog日志信息：执行正常充值的用例
+2019-04-01 20:03:46,647 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '1'}
+2019-04-01 20:03:46,656 [ERROR] mylog.py [line:34] mylog日志信息：执行正常充值的用例,错误信息是：'{"st[19 chars]01","data":{"id":1126397,"regname":"æ\x8a\x95æ[174 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
+- {"status":1,"code":"10001","data":{"id":1126397,"regname":"ææ ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"78923958.00","type":"1","regtime":"2019-03-21 08:37:19.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}
+
+2019-04-01 20:03:46,837 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:46,843 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:46,848 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:46,995 [INFO] mylog.py [line:30] mylog日志信息：执行正常充值两位小数的用例
+2019-04-01 20:03:47,006 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '0.01'}
+2019-04-01 20:03:47,011 [ERROR] mylog.py [line:34] mylog日志信息：执行正常充值两位小数的用例,错误信息是：'{"st[19 chars]01","data":{"id":1126397,"regname":"æ\x8a\x95æ[174 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
+- {"status":1,"code":"10001","data":{"id":1126397,"regname":"ææ ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"78923958.01","type":"1","regtime":"2019-03-21 08:37:19.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}
+
+2019-04-01 20:03:47,186 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:47,195 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:47,200 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:47,357 [INFO] mylog.py [line:30] mylog日志信息：执行正常充值499999.99的用例
+2019-04-01 20:03:47,370 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '499999.99'}
+2019-04-01 20:03:47,380 [ERROR] mylog.py [line:34] mylog日志信息：执行正常充值499999.99的用例,错误信息是：'{"st[19 chars]01","data":{"id":1126397,"regname":"æ\x8a\x95æ[174 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
+- {"status":1,"code":"10001","data":{"id":1126397,"regname":"ææ ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"79423958.00","type":"1","regtime":"2019-03-21 08:37:19.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}
+
+2019-04-01 20:03:47,565 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:47,571 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:47,576 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:47,713 [INFO] mylog.py [line:30] mylog日志信息：执行正常充值50万的用例
+2019-04-01 20:03:47,725 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '500000'}
+2019-04-01 20:03:47,732 [ERROR] mylog.py [line:34] mylog日志信息：执行正常充值50万的用例,错误信息是：'{"st[19 chars]01","data":{"id":1126397,"regname":"æ\x8a\x95æ[174 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
+- {"status":1,"code":"10001","data":{"id":1126397,"regname":"ææ ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"79923958.00","type":"1","regtime":"2019-03-21 08:37:19.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}
+
+2019-04-01 20:03:47,916 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:47,922 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:47,929 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:48,040 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码为空的用例
+2019-04-01 20:03:48,055 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '', 'amount': '10'}
+2019-04-01 20:03:48,063 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码为空的用例：PASS
+2019-04-01 20:03:48,176 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:48,183 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:48,191 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:48,490 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码错误的用例
+2019-04-01 20:03:48,507 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '15688773468', 'amount': '10'}
+2019-04-01 20:03:48,514 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码错误的用例：PASS
+2019-04-01 20:03:48,610 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:48,616 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:48,621 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:48,752 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码长度小于11位的用例
+2019-04-01 20:03:48,762 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '1868873468', 'amount': '10'}
+2019-04-01 20:03:48,772 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码长度小于11位的用例：PASS
+2019-04-01 20:03:48,868 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:48,875 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:48,880 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:49,000 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码长度大于11位的用例
+2019-04-01 20:03:49,017 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '186887734682', 'amount': '1'}
+2019-04-01 20:03:49,025 [INFO] mylog.py [line:30] mylog日志信息：执行手机号码长度大于11位的用例：PASS
+2019-04-01 20:03:49,121 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:49,127 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:49,132 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:49,270 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额为空的用例
+2019-04-01 20:03:49,292 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': ''}
+2019-04-01 20:03:49,303 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额为空的用例：PASS
+2019-04-01 20:03:49,425 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:49,432 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:49,436 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:49,546 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额三位小数的用例
+2019-04-01 20:03:49,559 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '0.001'}
+2019-04-01 20:03:49,569 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额三位小数的用例：PASS
+2019-04-01 20:03:49,684 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:49,690 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:49,696 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:49,853 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额为负数的用例
+2019-04-01 20:03:49,867 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '-10'}
+2019-04-01 20:03:49,881 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额为负数的用例：PASS
+2019-04-01 20:03:49,981 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:49,987 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:49,993 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:50,102 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额大于50万的用例
+2019-04-01 20:03:50,115 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': '500000.01'}
+2019-04-01 20:03:50,126 [INFO] mylog.py [line:30] mylog日志信息：执行充值金额大于50万的用例：PASS
+2019-04-01 20:03:50,217 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:50,223 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:50,229 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:50,351 [INFO] mylog.py [line:30] mylog日志信息：执行金额为非数字的用例
+2019-04-01 20:03:50,370 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'mobilephone': '13822221113', 'amount': 'abc'}
+2019-04-01 20:03:50,386 [INFO] mylog.py [line:30] mylog日志信息：执行金额为非数字的用例：PASS
+2019-04-01 20:03:50,506 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:50,512 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:50,517 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:50,659 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例
+2019-04-01 20:03:50,670 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221112'}
+2019-04-01 20:03:50,677 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例：PASS
+2019-04-01 20:03:50,867 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:50,873 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:50,879 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:50,987 [INFO] mylog.py [line:30] mylog日志信息：执行手机号为空的用例
+2019-04-01 20:03:50,999 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': ''}
+2019-04-01 20:03:51,005 [INFO] mylog.py [line:30] mylog日志信息：执行手机号为空的用例：PASS
+2019-04-01 20:03:51,180 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:51,186 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:51,191 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:51,314 [INFO] mylog.py [line:30] mylog日志信息：执行密码为空的用例
+2019-04-01 20:03:51,326 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '', 'mobilephone': '18688773468'}
+2019-04-01 20:03:51,333 [INFO] mylog.py [line:30] mylog日志信息：执行密码为空的用例：PASS
+2019-04-01 20:03:51,530 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:51,536 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:51,542 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:51,670 [INFO] mylog.py [line:30] mylog日志信息：执行手机号错误的用例
+2019-04-01 20:03:51,679 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '19688773468'}
+2019-04-01 20:03:51,685 [INFO] mylog.py [line:30] mylog日志信息：执行手机号错误的用例：PASS
+2019-04-01 20:03:51,860 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:51,867 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 20:03:51,873 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=924728E3B353B3B375BD5594F5C0E7B8 for 47.107.168.87/futureloan>]>
+2019-04-01 20:03:51,985 [INFO] mylog.py [line:30] mylog日志信息：执行密码错误的用例
+2019-04-01 20:03:51,993 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '@@###8888', 'mobilephone': '18688773468'}
+2019-04-01 20:03:52,001 [INFO] mylog.py [line:30] mylog日志信息：执行密码错误的用例：PASS
+2019-04-01 20:03:52,208 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 20:03:52,214 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,344 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '${admin_pwd}', 'mobilephone': '${admin_user}'}
+2019-04-01 20:03:52,357 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:52,378 [INFO] mylog.py [line:30] mylog日志信息：登录管理员:用例执行未通过
+2019-04-01 20:03:52,476 [INFO] mylog.py [line:30] mylog日志信息：登录管理员:测试结果写入完成
+2019-04-01 20:03:52,511 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,519 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,524 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,531 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,536 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,543 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,664 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '${normal_pwd}', 'mobilephone': '${loanid_user}'}
+2019-04-01 20:03:52,669 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:52,675 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户:用例执行未通过
+2019-04-01 20:03:52,790 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户:测试结果写入完成
+2019-04-01 20:03:52,798 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,805 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,811 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,818 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,825 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,831 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,836 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,842 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,848 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,853 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,859 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,865 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,870 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,877 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,883 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,888 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,894 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,900 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,905 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,910 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,916 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,923 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,929 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,935 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,940 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,946 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,952 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,959 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,964 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,969 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,976 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:52,985 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:52,991 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,000 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,015 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,028 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,034 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,045 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,149 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '${admin_pwd}', 'mobilephone': '${admin_user}'}
+2019-04-01 20:03:53,156 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:53,167 [INFO] mylog.py [line:30] mylog日志信息：正常登录:用例执行未通过
+2019-04-01 20:03:53,265 [INFO] mylog.py [line:30] mylog日志信息：正常登录:测试结果写入完成
+2019-04-01 20:03:53,271 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,277 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,283 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,294 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,300 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,305 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,311 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,318 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,323 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,329 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,335 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,342 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,348 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,356 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,364 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,373 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,380 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,387 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,393 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,399 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,404 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,411 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,416 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,423 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,428 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,434 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,440 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,447 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,453 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,459 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,465 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,471 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,477 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,487 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,493 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,501 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,507 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,514 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,521 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,527 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,539 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,549 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,555 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,562 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,568 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,575 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,582 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,588 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,593 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,600 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,605 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,613 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,620 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,626 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,631 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,637 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,643 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,649 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,654 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,660 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:53,789 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '${withdraw_pwd}', 'mobilephone': '${withdraw_user}'}
+2019-04-01 20:03:53,799 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:53,807 [INFO] mylog.py [line:30] mylog日志信息：正常登录:用例执行未通过
+2019-04-01 20:03:53,914 [INFO] mylog.py [line:30] mylog日志信息：正常登录:测试结果写入完成
+2019-04-01 20:03:53,921 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:53,928 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:54,149 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '1'}
+2019-04-01 20:03:54,162 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:54,173 [INFO] mylog.py [line:30] mylog日志信息：充值1:用例执行未通过
+2019-04-01 20:03:54,261 [INFO] mylog.py [line:30] mylog日志信息：充值1:测试结果写入完成
+2019-04-01 20:03:54,266 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:54,272 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:54,485 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '1'}
+2019-04-01 20:03:54,498 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:54,508 [INFO] mylog.py [line:30] mylog日志信息：成功取现:用例执行未通过
+2019-04-01 20:03:54,613 [INFO] mylog.py [line:30] mylog日志信息：成功取现:测试结果写入完成
+2019-04-01 20:03:54,619 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:54,625 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:54,884 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '1'}
+2019-04-01 20:03:54,895 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:54,900 [INFO] mylog.py [line:30] mylog日志信息：充值1:用例执行未通过
+2019-04-01 20:03:54,990 [INFO] mylog.py [line:30] mylog日志信息：充值1:测试结果写入完成
+2019-04-01 20:03:54,995 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:55,002 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:55,212 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '0.01'}
+2019-04-01 20:03:55,226 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:55,233 [INFO] mylog.py [line:30] mylog日志信息：成功取现0.01:用例执行未通过
+2019-04-01 20:03:55,322 [INFO] mylog.py [line:30] mylog日志信息：成功取现0.01:测试结果写入完成
+2019-04-01 20:03:55,328 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:55,334 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:55,507 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '500000'}
+2019-04-01 20:03:55,519 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:55,527 [INFO] mylog.py [line:30] mylog日志信息：充值50万:用例执行未通过
+2019-04-01 20:03:55,617 [INFO] mylog.py [line:30] mylog日志信息：充值50万:测试结果写入完成
+2019-04-01 20:03:55,624 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:55,630 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:55,795 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '499999.99'}
+2019-04-01 20:03:55,807 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:55,824 [INFO] mylog.py [line:30] mylog日志信息：成功取现499999.99:用例执行未通过
+2019-04-01 20:03:55,927 [INFO] mylog.py [line:30] mylog日志信息：成功取现499999.99:测试结果写入完成
+2019-04-01 20:03:55,932 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:55,938 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:56,167 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '500000'}
+2019-04-01 20:03:56,176 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:56,185 [INFO] mylog.py [line:30] mylog日志信息：充值50万:用例执行未通过
+2019-04-01 20:03:56,278 [INFO] mylog.py [line:30] mylog日志信息：充值50万:测试结果写入完成
+2019-04-01 20:03:56,283 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:56,289 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:56,459 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '500000'}
+2019-04-01 20:03:56,465 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:56,470 [INFO] mylog.py [line:30] mylog日志信息：成功取现50万:用例执行未通过
+2019-04-01 20:03:56,591 [INFO] mylog.py [line:30] mylog日志信息：成功取现50万:测试结果写入完成
+2019-04-01 20:03:56,598 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:56,606 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:56,759 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '500000'}
+2019-04-01 20:03:56,765 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:56,770 [INFO] mylog.py [line:30] mylog日志信息：取现金额大于余额:用例执行未通过
+2019-04-01 20:03:56,777 [INFO] mylog.py [line:30] mylog日志信息：取现金额大于余额:测试结果写入完成
+2019-04-01 20:03:56,782 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:56,788 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:56,986 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '15811221111', 'amount': '2'}
+2019-04-01 20:03:56,995 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:57,001 [INFO] mylog.py [line:30] mylog日志信息：手机号非会员:用例执行未通过
+2019-04-01 20:03:57,006 [INFO] mylog.py [line:30] mylog日志信息：手机号非会员:测试结果写入完成
+2019-04-01 20:03:57,011 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:57,017 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:57,203 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '', 'amount': '3'}
+2019-04-01 20:03:57,213 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:57,229 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:用例执行未通过
+2019-04-01 20:03:57,239 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:测试结果写入完成
+2019-04-01 20:03:57,244 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:57,251 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:57,459 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '186887734681', 'amount': '1'}
+2019-04-01 20:03:57,475 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:57,481 [INFO] mylog.py [line:30] mylog日志信息：手机号12位:用例执行未通过
+2019-04-01 20:03:57,486 [INFO] mylog.py [line:30] mylog日志信息：手机号12位:测试结果写入完成
+2019-04-01 20:03:57,493 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:57,499 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:57,649 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '1868877346', 'amount': '1'}
+2019-04-01 20:03:57,654 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:57,668 [INFO] mylog.py [line:30] mylog日志信息：手机号10位:用例执行未通过
+2019-04-01 20:03:57,683 [INFO] mylog.py [line:30] mylog日志信息：手机号10位:测试结果写入完成
+2019-04-01 20:03:57,688 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:57,695 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:57,899 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': ''}
+2019-04-01 20:03:57,907 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:57,916 [INFO] mylog.py [line:30] mylog日志信息：金额为空:用例执行未通过
+2019-04-01 20:03:57,924 [INFO] mylog.py [line:30] mylog日志信息：金额为空:测试结果写入完成
+2019-04-01 20:03:57,930 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:57,935 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:58,408 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '0.001'}
+2019-04-01 20:03:58,421 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:58,434 [INFO] mylog.py [line:30] mylog日志信息：金额小数大于3位数:用例执行未通过
+2019-04-01 20:03:58,442 [INFO] mylog.py [line:30] mylog日志信息：金额小数大于3位数:测试结果写入完成
+2019-04-01 20:03:58,448 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:58,454 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:58,619 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '500000.1'}
+2019-04-01 20:03:58,633 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:58,648 [INFO] mylog.py [line:30] mylog日志信息：金额大于50万:用例执行未通过
+2019-04-01 20:03:58,655 [INFO] mylog.py [line:30] mylog日志信息：金额大于50万:测试结果写入完成
+2019-04-01 20:03:58,663 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:58,669 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:58,865 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': '-1'}
+2019-04-01 20:03:58,883 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:58,890 [INFO] mylog.py [line:30] mylog日志信息：金额为负数:用例执行未通过
+2019-04-01 20:03:58,897 [INFO] mylog.py [line:30] mylog日志信息：金额为负数:测试结果写入完成
+2019-04-01 20:03:58,902 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:58,908 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:59,086 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${withdraw_user}', 'amount': 'abcd'}
+2019-04-01 20:03:59,103 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:59,115 [INFO] mylog.py [line:30] mylog日志信息：金额非数字:用例执行未通过
+2019-04-01 20:03:59,123 [INFO] mylog.py [line:30] mylog日志信息：金额非数字:测试结果写入完成
+2019-04-01 20:03:59,129 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:59,135 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:59,249 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '${loanid_pwd}', 'mobilephone': '${loanid_user}'}
+2019-04-01 20:03:59,268 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:59,282 [INFO] mylog.py [line:30] mylog日志信息：正常登录:用例执行未通过
+2019-04-01 20:03:59,387 [INFO] mylog.py [line:30] mylog日志信息：正常登录:测试结果写入完成
+2019-04-01 20:03:59,393 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:59,399 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:59,610 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '1'}
+2019-04-01 20:03:59,631 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:59,638 [INFO] mylog.py [line:30] mylog日志信息：正常充值:用例执行未通过
+2019-04-01 20:03:59,755 [INFO] mylog.py [line:30] mylog日志信息：正常充值:测试结果写入完成
+2019-04-01 20:03:59,763 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:03:59,770 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:03:59,946 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '0.01'}
+2019-04-01 20:03:59,955 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:03:59,962 [INFO] mylog.py [line:30] mylog日志信息：正常充值两位小数:用例执行未通过
+2019-04-01 20:04:00,057 [INFO] mylog.py [line:30] mylog日志信息：正常充值两位小数:测试结果写入完成
+2019-04-01 20:04:00,063 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:00,069 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:01,627 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '499999.99'}
+2019-04-01 20:04:01,639 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:01,647 [INFO] mylog.py [line:30] mylog日志信息：正常充值499999.99:用例执行未通过
+2019-04-01 20:04:01,735 [INFO] mylog.py [line:30] mylog日志信息：正常充值499999.99:测试结果写入完成
+2019-04-01 20:04:01,740 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:01,747 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:02,563 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '500000'}
+2019-04-01 20:04:02,568 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:02,575 [INFO] mylog.py [line:30] mylog日志信息：正常充值50万:用例执行未通过
+2019-04-01 20:04:02,677 [INFO] mylog.py [line:30] mylog日志信息：正常充值50万:测试结果写入完成
+2019-04-01 20:04:02,683 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:02,689 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:05,887 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '', 'amount': '10'}
+2019-04-01 20:04:05,903 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:05,910 [INFO] mylog.py [line:30] mylog日志信息：手机号码为空:用例执行未通过
+2019-04-01 20:04:05,997 [INFO] mylog.py [line:30] mylog日志信息：手机号码为空:测试结果写入完成
+2019-04-01 20:04:06,003 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:06,008 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:06,182 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '15688773468', 'amount': '10'}
+2019-04-01 20:04:06,201 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:06,211 [INFO] mylog.py [line:30] mylog日志信息：手机号码错误:用例执行未通过
+2019-04-01 20:04:06,330 [INFO] mylog.py [line:30] mylog日志信息：手机号码错误:测试结果写入完成
+2019-04-01 20:04:06,336 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:06,342 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:06,520 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '1868873468', 'amount': '10'}
+2019-04-01 20:04:06,533 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:06,539 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度小于11位:用例执行未通过
+2019-04-01 20:04:06,633 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度小于11位:测试结果写入完成
+2019-04-01 20:04:06,638 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:06,646 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:06,819 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '186887734682', 'amount': '1'}
+2019-04-01 20:04:06,834 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:06,840 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度大于11位:用例执行未通过
+2019-04-01 20:04:06,930 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度大于11位:测试结果写入完成
+2019-04-01 20:04:06,936 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:06,941 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:07,111 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': ''}
+2019-04-01 20:04:07,133 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:07,150 [INFO] mylog.py [line:30] mylog日志信息：充值金额为空:用例执行未通过
+2019-04-01 20:04:07,163 [INFO] mylog.py [line:30] mylog日志信息：充值金额为空:测试结果写入完成
+2019-04-01 20:04:07,168 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:07,175 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:07,403 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '0.001'}
+2019-04-01 20:04:07,409 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:07,414 [INFO] mylog.py [line:30] mylog日志信息：充值金额三位小数:用例执行未通过
+2019-04-01 20:04:07,420 [INFO] mylog.py [line:30] mylog日志信息：充值金额三位小数:测试结果写入完成
+2019-04-01 20:04:07,426 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:07,432 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:07,691 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '-10'}
+2019-04-01 20:04:07,702 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:07,708 [INFO] mylog.py [line:30] mylog日志信息：充值金额为负数:用例执行未通过
+2019-04-01 20:04:07,714 [INFO] mylog.py [line:30] mylog日志信息：充值金额为负数:测试结果写入完成
+2019-04-01 20:04:07,719 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:07,725 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:08,332 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': '500000.01'}
+2019-04-01 20:04:08,338 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:08,343 [INFO] mylog.py [line:30] mylog日志信息：充值金额大于50万:用例执行未通过
+2019-04-01 20:04:08,349 [INFO] mylog.py [line:30] mylog日志信息：充值金额大于50万:测试结果写入完成
+2019-04-01 20:04:08,354 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:08,361 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:09,067 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'mobilephone': '${loanid_user}', 'amount': 'abc'}
+2019-04-01 20:04:09,081 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:09,089 [INFO] mylog.py [line:30] mylog日志信息：金额为非数字:用例执行未通过
+2019-04-01 20:04:09,094 [INFO] mylog.py [line:30] mylog日志信息：金额为非数字:测试结果写入完成
+2019-04-01 20:04:09,099 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:09,108 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:09,481 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '${normal_pwd}', 'mobilephone': '${normal_user}'}
+2019-04-01 20:04:09,496 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:09,508 [INFO] mylog.py [line:30] mylog日志信息：正常登录:用例执行未通过
+2019-04-01 20:04:09,618 [INFO] mylog.py [line:30] mylog日志信息：正常登录:测试结果写入完成
+2019-04-01 20:04:09,623 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:09,629 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:09,968 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': ''}
+2019-04-01 20:04:09,986 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:09,995 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:用例执行通过
+2019-04-01 20:04:10,087 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:测试结果写入完成
+2019-04-01 20:04:10,093 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:10,099 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:10,465 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '', 'mobilephone': '18688773468'}
+2019-04-01 20:04:10,477 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:10,490 [INFO] mylog.py [line:30] mylog日志信息：密码为空:用例执行通过
+2019-04-01 20:04:10,576 [INFO] mylog.py [line:30] mylog日志信息：密码为空:测试结果写入完成
+2019-04-01 20:04:10,582 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:10,587 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:11,068 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': '19688773468'}
+2019-04-01 20:04:11,082 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:11,094 [INFO] mylog.py [line:30] mylog日志信息：手机号错误:用例执行通过
+2019-04-01 20:04:11,200 [INFO] mylog.py [line:30] mylog日志信息：手机号错误:测试结果写入完成
+2019-04-01 20:04:11,205 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:11,211 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:11,451 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '@@###8888', 'mobilephone': '18688773468'}
+2019-04-01 20:04:11,460 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:11,469 [INFO] mylog.py [line:30] mylog日志信息：密码错误:用例执行通过
+2019-04-01 20:04:11,567 [INFO] mylog.py [line:30] mylog日志信息：密码错误:测试结果写入完成
+2019-04-01 20:04:11,572 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:11,578 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:11,717 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': 13261251316, 'regname': '小名'}
+2019-04-01 20:04:11,730 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:11,737 [INFO] mylog.py [line:30] mylog日志信息：正常注册:用例执行通过
+2019-04-01 20:04:11,842 [INFO] mylog.py [line:30] mylog日志信息：正常注册:测试结果写入完成
+2019-04-01 20:04:11,848 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:11,854 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:11,996 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': 13261251317, 'regname': ''}
+2019-04-01 20:04:12,007 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:12,019 [INFO] mylog.py [line:30] mylog日志信息：注册名为空:用例执行通过
+2019-04-01 20:04:12,145 [INFO] mylog.py [line:30] mylog日志信息：注册名为空:测试结果写入完成
+2019-04-01 20:04:12,151 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:12,156 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:12,283 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': '', 'regname': '小名'}
+2019-04-01 20:04:12,298 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:12,306 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:用例执行通过
+2019-04-01 20:04:12,413 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:测试结果写入完成
+2019-04-01 20:04:12,419 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:12,426 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:12,566 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': '18688773468', 'regname': '小名'}
+2019-04-01 20:04:12,582 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:12,595 [INFO] mylog.py [line:30] mylog日志信息：已注册手机号再次注册:用例执行通过
+2019-04-01 20:04:12,700 [INFO] mylog.py [line:30] mylog日志信息：已注册手机号再次注册:测试结果写入完成
+2019-04-01 20:04:12,706 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:12,713 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:12,835 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': '1868877346', 'regname': '小名'}
+2019-04-01 20:04:12,849 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:12,863 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度小于11位:用例执行通过
+2019-04-01 20:04:12,967 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度小于11位:测试结果写入完成
+2019-04-01 20:04:12,972 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:12,978 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:13,086 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123456', 'mobilephone': '186887734681', 'regname': '小名'}
+2019-04-01 20:04:13,097 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:13,107 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度大于11位:用例执行通过
+2019-04-01 20:04:13,202 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度大于11位:测试结果写入完成
+2019-04-01 20:04:13,210 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:13,216 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:13,324 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '', 'mobilephone': 13261251318, 'regname': '小名'}
+2019-04-01 20:04:13,334 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:13,343 [INFO] mylog.py [line:30] mylog日志信息：密码为空:用例执行通过
+2019-04-01 20:04:13,434 [INFO] mylog.py [line:30] mylog日志信息：密码为空:测试结果写入完成
+2019-04-01 20:04:13,439 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:13,445 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:13,544 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '3456', 'mobilephone': 13261251319, 'regname': '小名'}
+2019-04-01 20:04:13,549 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:13,555 [INFO] mylog.py [line:30] mylog日志信息：密码长度小于6:用例执行通过
+2019-04-01 20:04:13,644 [INFO] mylog.py [line:30] mylog日志信息：密码长度小于6:测试结果写入完成
+2019-04-01 20:04:13,652 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:13,658 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 20:04:13,765 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'pwd': '123478956123456789123456', 'mobilephone': 13261251320, 'regname': '小名'}
+2019-04-01 20:04:13,775 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 20:04:13,785 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18位:用例执行通过
+2019-04-01 20:04:13,885 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18位:测试结果写入完成
+2019-04-01 20:04:13,890 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 20:04:29,082 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"66.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:04:29,576 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"65.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:04:30,066 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"66.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:04:30,540 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"65.99","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:04:31,063 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[181 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"500065.99","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:04:31,591 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"66.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:04:32,143 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[181 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"500066.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"充值成功"}
+2019-04-01 20:04:32,632 [ERROR] test_recharge.py [line:70] mylog日志信息：'{"st[19 chars]01","data":{"id":1127282,"regname":"å\x85\x85å[177 chars]成功"}' != '{"st[19 chars]01","msg":"取现成功"}'
++ {"status":1,"code":"10001","msg":"取现成功"}- {"status":1,"code":"10001","data":{"id":1127282,"regname":"å- - å¼æµè¯ç¨æ·","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221114","leaveamount":"66.00","type":"1","regtime":"2019-03-26 10:37:35.0"},"msg":"取现成功"}
+2019-04-01 20:05:32,052 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-04-01 20:05:32,119 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-04-01 20:05:32,130 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-04-01 20:05:32,194 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-04-01 20:05:32,206 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-04-01 20:05:32,274 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-04-01 20:05:32,287 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221114"
+2019-04-01 20:05:32,346 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221114，的id是1127282
+2019-04-01 20:05:32,685 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80923959.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 20:05:32,696 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:32,702 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221111'}
+2019-04-01 20:05:32,823 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-04-01 20:05:33,470 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80923959.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 20:05:33,477 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:33,483 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'title': '买矿泉水_03瓶', 'loanRate': '18.0', 'repaymemtWay': '4', 'loanDateType': '0', 'memberId': '1126396', 'loanTerm': '12', 'biddingDays': '5', 'amount': '50000'}
+2019-04-01 20:05:33,611 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-04-01 20:05:34,208 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:34,216 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'id': '19620', 'status': '4'}
+2019-04-01 20:05:34,344 [INFO] mylog.py [line:30] mylog日志信息：管理员审核用例执行结果：Pass
+2019-04-01 20:05:34,998 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:35,006 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'pwd': '123456', 'mobilephone': '13822221113'}
+2019-04-01 20:05:35,122 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-04-01 20:05:35,820 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:35,826 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '1000', 'memberId': '1126397'}
+2019-04-01 20:05:35,989 [INFO] mylog.py [line:30] mylog日志信息：竞标成功用例执行结果：Pass
+2019-04-01 20:05:36,635 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:36,641 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:36,647 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '', 'password': '', 'amount': '', 'memberId': ''}
+2019-04-01 20:05:36,743 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-04-01 20:05:37,374 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:37,381 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:37,387 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '1', 'memberId': ''}
+2019-04-01 20:05:37,502 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id为空用例执行结果：Pass
+2019-04-01 20:05:38,083 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:38,088 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:38,094 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '', 'amount': '1', 'memberId': '1126397'}
+2019-04-01 20:05:38,195 [INFO] mylog.py [line:30] mylog日志信息：password为空用例执行结果：Pass
+2019-04-01 20:05:38,752 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:38,758 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:38,764 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '', 'password': '123456', 'amount': '1', 'memberId': '1126397'}
+2019-04-01 20:05:38,879 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-04-01 20:05:39,439 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:39,448 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:39,453 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '', 'memberId': '1126397'}
+2019-04-01 20:05:39,565 [INFO] mylog.py [line:30] mylog日志信息：amount为空用例执行结果：Pass
+2019-04-01 20:05:40,109 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:40,117 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:40,124 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '1234556', 'amount': '1000', 'memberId': '-1231'}
+2019-04-01 20:05:40,240 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id小于0用例执行结果：Pass
+2019-04-01 20:05:40,904 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:40,912 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:40,918 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '1234556', 'amount': '1000', 'memberId': '1.1'}
+2019-04-01 20:05:41,016 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id是小数用例执行结果：Pass
+2019-04-01 20:05:41,576 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:41,584 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:41,589 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '-11221', 'password': '123456', 'amount': '1000', 'memberId': '1126397'}
+2019-04-01 20:05:41,716 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-04-01 20:05:42,280 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:42,287 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:42,293 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '1.1', 'password': '123456', 'amount': '1000', 'memberId': '1126397'}
+2019-04-01 20:05:42,406 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-04-01 20:05:43,022 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:43,028 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:43,035 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '12345532132131321332136', 'amount': '1000', 'memberId': '1126397'}
+2019-04-01 20:05:43,153 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18用例执行结果：Pass
+2019-04-01 20:05:43,743 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:43,750 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:43,758 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '1000', 'memberId': '99999999'}
+2019-04-01 20:05:43,886 [INFO] mylog.py [line:30] mylog日志信息：用户不存在用例执行结果：Pass
+2019-04-01 20:05:44,513 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:44,521 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:44,528 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '9699999', 'password': '123456', 'amount': '1000', 'memberId': '1126397'}
+2019-04-01 20:05:44,645 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-04-01 20:05:45,201 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:45,206 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:45,212 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': 'abdc', 'memberId': '1126397'}
+2019-04-01 20:05:45,307 [INFO] mylog.py [line:30] mylog日志信息：投资金额非数字用例执行结果：Pass
+2019-04-01 20:05:48,319 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:48,329 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:48,335 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '1001', 'memberId': '1126397'}
+2019-04-01 20:05:48,451 [INFO] mylog.py [line:30] mylog日志信息：不能被100整除的数用例执行结果：Pass
+2019-04-01 20:05:49,057 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:49,063 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:49,070 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '123', 'memberId': '1126397'}
+2019-04-01 20:05:49,220 [INFO] mylog.py [line:30] mylog日志信息：投资金额大于标的余额用例执行结果：Pass
+2019-04-01 20:05:49,854 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80922959.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 20:05:49,861 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:49,867 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '123', 'memberId': '1126397'}
+2019-04-01 20:05:50,038 [INFO] mylog.py [line:30] mylog日志信息：将标投满用例执行结果：Pass
+2019-04-01 20:05:50,615 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:80873959.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 20:05:50,623 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=15D86ECB390B5C3195CCE9D485096A90 for 47.107.168.87/futureloan>]>
+2019-04-01 20:05:50,631 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'loanId': '19620', 'password': '123456', 'amount': '1000', 'memberId': '1126397'}
+2019-04-01 20:05:50,743 [INFO] mylog.py [line:30] mylog日志信息：投标已满在投标用例执行结果：Pass
+2019-04-01 21:36:18,419 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 21:36:18,434 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：None
+2019-04-01 21:36:18,553 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例
+2019-04-01 21:36:18,566 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '13822221112'}
+2019-04-01 21:36:18,576 [INFO] mylog.py [line:30] mylog日志信息：本次请求获取到的cookies是：<RequestsCookieJar[<Cookie JSESSIONID=144000F4BC1A5B0A293505D685DA0384 for 47.107.168.87/futureloan>]>
+2019-04-01 21:36:18,586 [INFO] mylog.py [line:30] mylog日志信息：执行正常登录的用例：PASS
+2019-04-01 21:36:18,786 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 21:36:18,798 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 21:36:18,810 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=144000F4BC1A5B0A293505D685DA0384 for 47.107.168.87/futureloan>]>
+2019-04-01 21:36:18,913 [INFO] mylog.py [line:30] mylog日志信息：执行手机号为空的用例
+2019-04-01 21:36:18,923 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': ''}
+2019-04-01 21:36:18,932 [INFO] mylog.py [line:30] mylog日志信息：执行手机号为空的用例：PASS
+2019-04-01 21:36:19,116 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 21:36:19,132 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 21:36:19,144 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=144000F4BC1A5B0A293505D685DA0384 for 47.107.168.87/futureloan>]>
+2019-04-01 21:36:19,263 [INFO] mylog.py [line:30] mylog日志信息：执行密码为空的用例
+2019-04-01 21:36:19,275 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '', 'mobilephone': '18688773468'}
+2019-04-01 21:36:19,286 [INFO] mylog.py [line:30] mylog日志信息：执行密码为空的用例：PASS
+2019-04-01 21:36:19,493 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 21:36:19,512 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 21:36:19,525 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=144000F4BC1A5B0A293505D685DA0384 for 47.107.168.87/futureloan>]>
+2019-04-01 21:36:19,644 [INFO] mylog.py [line:30] mylog日志信息：执行手机号错误的用例
+2019-04-01 21:36:19,653 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '123456', 'mobilephone': '19688773468'}
+2019-04-01 21:36:19,665 [INFO] mylog.py [line:30] mylog日志信息：执行手机号错误的用例：PASS
+2019-04-01 21:36:19,863 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 21:36:19,880 [DEBUG] mylog.py [line:28] mylog日志信息：判断有无初始化的cookies值
+2019-04-01 21:36:19,891 [DEBUG] mylog.py [line:28] mylog日志信息：获取到的cookies值是：<RequestsCookieJar[<Cookie JSESSIONID=144000F4BC1A5B0A293505D685DA0384 for 47.107.168.87/futureloan>]>
+2019-04-01 21:36:20,005 [INFO] mylog.py [line:30] mylog日志信息：执行密码错误的用例
+2019-04-01 21:36:20,021 [INFO] mylog.py [line:30] mylog日志信息：请求数据{'pwd': '@@###8888', 'mobilephone': '18688773468'}
+2019-04-01 21:36:20,033 [INFO] mylog.py [line:30] mylog日志信息：执行密码错误的用例：PASS
+2019-04-01 21:36:20,280 [INFO] mylog.py [line:30] mylog日志信息：写入测试结果完成
+2019-04-01 21:36:29,631 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:29,783 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': 13261251321, 'pwd': '123456'}
+2019-04-01 21:36:29,796 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:29,808 [INFO] mylog.py [line:30] mylog日志信息：正常注册:用例执行通过
+2019-04-01 21:36:29,913 [INFO] mylog.py [line:30] mylog日志信息：正常注册:测试结果写入完成
+2019-04-01 21:36:29,926 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:29,938 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:30,059 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '', 'mobilephone': 13261251322, 'pwd': '123456'}
+2019-04-01 21:36:30,075 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:30,089 [INFO] mylog.py [line:30] mylog日志信息：注册名为空:用例执行通过
+2019-04-01 21:36:30,216 [INFO] mylog.py [line:30] mylog日志信息：注册名为空:测试结果写入完成
+2019-04-01 21:36:30,230 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:30,245 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:30,373 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': '', 'pwd': '123456'}
+2019-04-01 21:36:30,384 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:30,400 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:用例执行通过
+2019-04-01 21:36:30,501 [INFO] mylog.py [line:30] mylog日志信息：手机号为空:测试结果写入完成
+2019-04-01 21:36:30,512 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:30,526 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:30,646 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': '18688773468', 'pwd': '123456'}
+2019-04-01 21:36:30,656 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:30,668 [INFO] mylog.py [line:30] mylog日志信息：已注册手机号再次注册:用例执行通过
+2019-04-01 21:36:30,776 [INFO] mylog.py [line:30] mylog日志信息：已注册手机号再次注册:测试结果写入完成
+2019-04-01 21:36:30,787 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:30,808 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:30,911 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': '1868877346', 'pwd': '123456'}
+2019-04-01 21:36:30,924 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:30,935 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度小于11位:用例执行通过
+2019-04-01 21:36:31,040 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度小于11位:测试结果写入完成
+2019-04-01 21:36:31,055 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:31,068 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:31,178 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': '186887734681', 'pwd': '123456'}
+2019-04-01 21:36:31,189 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:31,201 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度大于11位:用例执行通过
+2019-04-01 21:36:31,302 [INFO] mylog.py [line:30] mylog日志信息：手机号码长度大于11位:测试结果写入完成
+2019-04-01 21:36:31,313 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:31,326 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:31,447 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': 13261251323, 'pwd': ''}
+2019-04-01 21:36:31,460 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:31,473 [INFO] mylog.py [line:30] mylog日志信息：密码为空:用例执行通过
+2019-04-01 21:36:31,611 [INFO] mylog.py [line:30] mylog日志信息：密码为空:测试结果写入完成
+2019-04-01 21:36:31,627 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:31,641 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:31,751 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': 13261251324, 'pwd': '3456'}
+2019-04-01 21:36:31,762 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:31,771 [INFO] mylog.py [line:30] mylog日志信息：密码长度小于6:用例执行通过
+2019-04-01 21:36:31,874 [INFO] mylog.py [line:30] mylog日志信息：密码长度小于6:测试结果写入完成
+2019-04-01 21:36:31,886 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:36:31,900 [DEBUG] mylog.py [line:28] mylog日志信息：开始http请求
+2019-04-01 21:36:32,011 [INFO] mylog.py [line:30] mylog日志信息：请求数据是:{'regname': '小名', 'mobilephone': 13261251325, 'pwd': '123478956123456789123456'}
+2019-04-01 21:36:32,021 [DEBUG] mylog.py [line:28] mylog日志信息：请求完成，服务器响应码是：200
+2019-04-01 21:36:32,030 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18位:用例执行通过
+2019-04-01 21:36:32,138 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18位:测试结果写入完成
+2019-04-01 21:36:32,149 [DEBUG] mylog.py [line:28] mylog日志信息：结束http请求
+2019-04-01 21:37:16,386 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221111"
+2019-04-01 21:37:16,449 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221111，的id是1126395
+2019-04-01 21:37:16,461 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221112"
+2019-04-01 21:37:16,517 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221112，的id是1126396
+2019-04-01 21:37:16,526 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221113"
+2019-04-01 21:37:16,582 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221113，的id是1126397
+2019-04-01 21:37:16,599 [INFO] mylog.py [line:30] mylog日志信息：初始化用户数据sql:SELECT Id from future.member WHERE MobilePhone = "13822221114"
+2019-04-01 21:37:16,664 [INFO] mylog.py [line:30] mylog日志信息：获取到13822221114，的id是1127282
+2019-04-01 21:37:16,980 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81873960.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 21:37:16,990 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：None
+2019-04-01 21:37:17,005 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221111', 'pwd': '123456'}
+2019-04-01 21:37:17,129 [INFO] mylog.py [line:30] mylog日志信息：登录管理员用例执行结果：Pass
+2019-04-01 21:37:17,704 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81873960.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 21:37:17,722 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:17,733 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'title': '买矿泉水_03瓶', 'repaymemtWay': '4', 'loanTerm': '12', 'loanDateType': '0', 'amount': '50000', 'loanRate': '18.0', 'memberId': '1126396', 'biddingDays': '5'}
+2019-04-01 21:37:17,871 [INFO] mylog.py [line:30] mylog日志信息：管理员新增项目用例执行结果：Pass
+2019-04-01 21:37:18,432 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:18,442 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'status': '4', 'id': '19621'}
+2019-04-01 21:37:18,549 [INFO] mylog.py [line:30] mylog日志信息：管理员审核用例执行结果：Pass
+2019-04-01 21:37:19,130 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:19,146 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'mobilephone': '13822221113', 'pwd': '123456'}
+2019-04-01 21:37:19,263 [INFO] mylog.py [line:30] mylog日志信息：登录竞标用户用例执行结果：Pass
+2019-04-01 21:37:19,859 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:19,886 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:20,029 [INFO] mylog.py [line:30] mylog日志信息：竞标成功用例执行结果：Pass
+2019-04-01 21:37:20,583 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:20,604 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:20,616 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '', 'loanId': '', 'password': '', 'memberId': ''}
+2019-04-01 21:37:20,718 [INFO] mylog.py [line:30] mylog日志信息：所有参数为空用例执行结果：Pass
+2019-04-01 21:37:21,287 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:21,298 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:21,309 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'loanId': '19621', 'password': '123456', 'memberId': ''}
+2019-04-01 21:37:21,420 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id为空用例执行结果：Pass
+2019-04-01 21:37:22,019 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:22,031 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:22,046 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'loanId': '19621', 'password': '', 'memberId': '1126397'}
+2019-04-01 21:37:22,171 [INFO] mylog.py [line:30] mylog日志信息：password为空用例执行结果：Pass
+2019-04-01 21:37:22,795 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:22,805 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:22,815 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1', 'loanId': '', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:22,917 [INFO] mylog.py [line:30] mylog日志信息：loanid为空用例执行结果：Pass
+2019-04-01 21:37:23,473 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:23,483 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:23,497 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:23,608 [INFO] mylog.py [line:30] mylog日志信息：amount为空用例执行结果：Pass
+2019-04-01 21:37:24,179 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:24,190 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:24,203 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19621', 'password': '1234556', 'memberId': '-1231'}
+2019-04-01 21:37:24,317 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id小于0用例执行结果：Pass
+2019-04-01 21:37:24,899 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:24,916 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:24,931 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19621', 'password': '1234556', 'memberId': '1.1'}
+2019-04-01 21:37:25,045 [INFO] mylog.py [line:30] mylog日志信息：loanid_user_id是小数用例执行结果：Pass
+2019-04-01 21:37:25,614 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:25,625 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:25,636 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '-11221', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:25,772 [INFO] mylog.py [line:30] mylog日志信息：loanId小于0用例执行结果：Pass
+2019-04-01 21:37:26,363 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:26,374 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:26,388 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '1.1', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:26,515 [INFO] mylog.py [line:30] mylog日志信息：loanId是小数用例执行结果：Pass
+2019-04-01 21:37:27,106 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:27,118 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:27,129 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19621', 'password': '12345532132131321332136', 'memberId': '1126397'}
+2019-04-01 21:37:27,246 [INFO] mylog.py [line:30] mylog日志信息：密码长度大于18用例执行结果：Pass
+2019-04-01 21:37:27,846 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:27,859 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:27,870 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19621', 'password': '123456', 'memberId': '99999999'}
+2019-04-01 21:37:27,987 [INFO] mylog.py [line:30] mylog日志信息：用户不存在用例执行结果：Pass
+2019-04-01 21:37:28,573 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:28,584 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:28,597 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '9699999', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:28,720 [INFO] mylog.py [line:30] mylog日志信息：标不存在用例执行结果：Pass
+2019-04-01 21:37:29,298 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:29,310 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:29,319 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': 'abdc', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:29,428 [INFO] mylog.py [line:30] mylog日志信息：投资金额非数字用例执行结果：Pass
+2019-04-01 21:37:30,032 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:30,042 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:30,052 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1001', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:30,160 [INFO] mylog.py [line:30] mylog日志信息：不能被100整除的数用例执行结果：Pass
+2019-04-01 21:37:30,783 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:30,803 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:30,817 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '123', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:30,940 [INFO] mylog.py [line:30] mylog日志信息：投资金额大于标的余额用例执行结果：Pass
+2019-04-01 21:37:31,550 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81872960.00,已投资总额:1000.00，剩余可投金额:49000
+2019-04-01 21:37:31,577 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:31,595 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '123', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:31,752 [INFO] mylog.py [line:30] mylog日志信息：将标投满用例执行结果：Pass
+2019-04-01 21:37:32,385 [INFO] mylog.py [line:30] mylog日志信息：投资人账号余额:81823960.00,已投资总额:50000.00，剩余可投金额:0
+2019-04-01 21:37:32,413 [INFO] mylog.py [line:30] mylog日志信息：获取到用户登录COOKIES：<RequestsCookieJar[<Cookie JSESSIONID=B1D12E6579DF57A43A9C6E04B33AA19B for 47.107.168.87/futureloan>]>
+2019-04-01 21:37:32,429 [INFO] mylog.py [line:30] mylog日志信息：测试数据请求初始化{'amount': '1000', 'loanId': '19621', 'password': '123456', 'memberId': '1126397'}
+2019-04-01 21:37:32,568 [INFO] mylog.py [line:30] mylog日志信息：投标已满在投标用例执行结果：Pass

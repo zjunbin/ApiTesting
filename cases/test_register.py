@@ -7,8 +7,8 @@ import unittest
 from common.read_excel import ReadExcel
 from common.readconfig import ReadConfig
 from common.request import Request
-# from api_testing.common.mylog import MyLog
-from common import myloger1
+from common.mylog import MyLog
+# from common import myloger1
 from common.mysql import *
 from ddt import ddt,data
 import json
@@ -20,12 +20,16 @@ COOKIES = None
 
 @ddt
 class TestRegister(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.mylog = MyLog()
+
 
     def setUp(self):
-        myloger1.mylog.debug('开始http请求')
+        self.mylog.debug('开始http请求')
 
     def tearDown(self):
-        myloger1.mylog.debug('结束http请求')
+        self.mylog.debug('结束http请求')
 
     @data(*data_case)
     def test_register(self,item):
@@ -40,8 +44,8 @@ class TestRegister(unittest.TestCase):
             conf.set('register', 'phone', str(value + 1))
         url = getattr(contex, 'url') + item['url']
         resp = Request(method=item['method'], url=url, data=params, cookies=COOKIES)
-        myloger1.mylog.info('请求数据是:'.format(item))
-        myloger1.mylog.debug('请求完成，服务器响应码是：{}'.format(resp.status_code()))
+        self.mylog.info('请求数据是:{}'.format(params))
+        self.mylog.debug('请求完成，服务器响应码是：{}'.format(resp.status_code()))
         # 设置COOKIES的值
         if resp.cookies():
             COOKIES = resp.cookies()
@@ -56,14 +60,15 @@ class TestRegister(unittest.TestCase):
         try:
             self.assertEqual(actual, item['excepted'])
             result = 'PASS'
-            myloger1.mylog.info('{}:用例执行通过'.format(item['title']))
+            self.mylog.info('{}:用例执行通过'.format(item['title']))
         except Exception as e:
             result = 'FAIL'
-            myloger1.mylog.info('{}:用例执行未通过'.format(item['title']))
+            self.mylog.info('{}:用例执行未通过'.format(item['title']))
             raise e
         finally:
 
             read.write_result('register', item['caseid'], actual, result)
-            myloger1.mylog.info('{}:测试结果写入完成'.format(item['title']))
+            self.mylog.info('{}:测试结果写入完成'.format(item['title']))
 
 
+# 13261251296

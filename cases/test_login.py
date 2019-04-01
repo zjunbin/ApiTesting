@@ -27,11 +27,9 @@ class Login(unittest.TestCase):
         else:
             cookies = None
         mylog.debug('获取到的cookies值是：{}'.format(cookies))
-        params = json.loads(params)
+        params = json.loads(DoRegex().replace(params))
         resp = Request(method=method, url=url, data=params, cookies=cookies)
         mylog.info('执行{}的用例'.format(title))
-        mylog.info('请求方式{}'.format(method))
-        mylog.info('请求url{}'.format(url))
         mylog.info('请求数据{}'.format(params))
         if resp.cookies():
             setattr(contex, 'cookies', resp.cookies())
@@ -49,3 +47,5 @@ class Login(unittest.TestCase):
         finally:
             ReadExcel().write_result('login', caseid=caseid, actual=actual, result=result)
             mylog.info('写入测试结果完成')
+
+
