@@ -10,19 +10,19 @@ mylog = MyLog()
 class Request:
     def __init__(self, method, url, data, cookies = None):
 
-        if method == 'get':
+        if method.uper()== 'GET':
             try:
                 self.resp = requests.get(url=url, params=data)
             except AttributeError as e:
                 mylog.error(e)
                 raise e
-        elif method == 'post':
+        elif method.uper() == 'POST':
             try:
                 self.resp = requests.post(url=url, data=data ,cookies = cookies)
             except AttributeError as e:
                 mylog.error(e)
                 raise e
-        elif method == 'delete':
+        elif method.uper() == 'DELETE':
             try:
                 self.resp = requests.delete(url=url, param=data)
             except AttributeError as e:
@@ -44,22 +44,26 @@ class Request:
         return self.resp.status_code
 
 if __name__ == '__main__':
-    url = 'http://47.107.168.87:8080/futureloan/mvc/api/member/login'
-    url1 = 'http://47.107.168.87:8080/futureloan/mvc/api/member/withdraw'
-    # url2 = 'http://47.107.168.87:8080/futureloan/mvc/api/loan/add'
-    # url4 = 'http://47.107.168.87:8080/futureloan/mvc/api/member/bidLoan'
-    # url5 = 'http://47.107.168.87:8080/futureloan/mvc/api/loan/audit'
-
-    params = {"mobilephone":"13822221112","pwd":"123456"}
-    # data = {"mobilephone": "13566666666", "amount": "30"}
-    # data = {"memberId":"1125830","title":"买房","amount":"300000","loanRate":"20","loanTerm":"12","loanDateType":"0","repaymemtWay":"4","biddingDays":"10"}
-    # data =   {'loanTerm': '12', 'loanDateType': '2', 'amount': '30000', 'loanRate': '18.0', 'biddingDays': '5', 'title': '买飞机', 'loanid_user_id': '1126396', 'repaymemtWay': '4'}
-    # data2= {"id":"17659","status":"4"}
-    # data3 ={"memberId":"1126396","password":"123456","loanId":"17659","amount":"999"}
-    data1 = {"mobilephone":"13822221112","amount":"500000"}
-    re = requests.session()
-    resp = re.request(method='get',url=url,params=params)
-    resp = requests.get(url,params=params)
-    print(resp.text)
-    resp2 =re.request(method='post',url=url1,data=data1)
-    print(resp2.text)
+    # url = 'http://47.107.168.87:8080/futureloan/mvc/api/member/login'
+    # url1 = 'http://47.107.168.87:8080/futureloan/mvc/api/member/withdraw'
+    # # url2 = 'http://47.107.168.87:8080/futureloan/mvc/api/loan/add'
+    # # url4 = 'http://47.107.168.87:8080/futureloan/mvc/api/member/bidLoan'
+    # # url5 = 'http://47.107.168.87:8080/futureloan/mvc/api/loan/audit'
+    #
+    # params = {"mobilephone":"13822221112","pwd":"123456"}
+    # # data = {"mobilephone": "13566666666", "amount": "30"}
+    # # data = {"memberId":"1125830","title":"买房","amount":"300000","loanRate":"20","loanTerm":"12","loanDateType":"0","repaymemtWay":"4","biddingDays":"10"}
+    # # data =   {'loanTerm': '12', 'loanDateType': '2', 'amount': '30000', 'loanRate': '18.0', 'biddingDays': '5', 'title': '买飞机', 'loanid_user_id': '1126396', 'repaymemtWay': '4'}
+    # # data2= {"id":"17659","status":"4"}
+    # # data3 ={"memberId":"1126396","password":"123456","loanId":"17659","amount":"999"}
+    # data1 = {"mobilephone":"13822221112","amount":"500000"}
+    # re = requests.session()
+    # resp = re.request(method='get',url=url,params=params)
+    # resp = requests.get(url,params=params)
+    # print(resp.text)
+    # resp2 =re.request(method='post',url=url1,data=data1)
+    # print(resp2.text)
+    url = 'http://114.113.237.66:51005/Main.aspx'
+    res = requests.get(url)
+    print(res)
+    print(res.text)
