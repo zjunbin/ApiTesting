@@ -9,7 +9,7 @@ import unittest
 from common import constants
 from cases import test_login,test_register ,test_bidLoan,test_loadadd,test_withdraw,test_recharge
 '''
-apiceshi 
+apiceshi 2
 '''
 # discover = unittest.defaultTestLoader.discover(r'D:\api_testing\cases','test_*.py',top_level_dir=None)
 suite = unittest.TestSuite()
