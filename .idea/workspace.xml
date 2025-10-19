@@ -5,9 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/common/request.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f66a0cd-ed69-4be4-a9a1-fac1786e1f31" name="Default" comment="update code2">
+    <list default="true" id="2f66a0cd-ed69-4be4-a9a1-fac1786e1f31" name="Default" comment="update code3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/request.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -229,6 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553942856440</updated>
       <workItem from="1760325344184" duration="4418000" />
+      <workItem from="1760866227442" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="导入根路径">
       <created>1553953720940</created>
@@ -251,7 +251,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554302329665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update code3">
+      <created>1760866351461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760866351461</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update code3">
+      <created>1760866545601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760866545601</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update code3">
+      <created>1760866770706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760866770706</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -315,11 +336,23 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="导入根路径" />
     <MESSAGE value="update code" />
     <MESSAGE value="update code2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code2" />
+    <MESSAGE value="update code3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/read_excel.py">
